@@ -1,0 +1,119 @@
+ Description of trained model 
+
+"class_name": "Sequential", "keras_version": "2.2.2", "config": 
+
+"class_name": "Conv2D", "config": 
+"kernel_initializer": 
+"class_name": "VarianceScaling", "config": 
+"distribution": "uniform", "scale": 1.0, "seed": null, "mode": "fan_avg"
+
+, "name": "conv2d_19", "kernel_constraint": null, "bias_regularizer": null, "bias_constraint": null, "dtype": "float32", "activation": "linear", "trainable": true, "data_format": "channels_last", "filters": 32, "padding": "same", "strides": 
+1, 1
+, "dilation_rate": 
+1, 1
+, "kernel_regularizer": null, "bias_initializer": 
+"class_name": "Zeros", "config": 
+
+
+, "batch_input_shape": 
+null, 3, 240, 240
+, "use_bias": true, "activity_regularizer": null, "kernel_size": 
+2, 2
+
+
+, 
+"class_name": "Activation", "config": 
+"activation": "relu", "trainable": true, "name": "activation_37"
+
+, 
+"class_name": "MaxPooling2D", "config": 
+"name": "max_pooling2d_19", "trainable": true, "data_format": "channels_last", "pool_size": 
+2, 2
+, "padding": "same", "strides": 
+2, 2
+
+
+, 
+"class_name": "Dropout", "config": 
+"rate": 0.25, "noise_shape": null, "trainable": true, "seed": null, "name": "dropout_28"
+
+, 
+"class_name": "Conv2D", "config": 
+"kernel_initializer": 
+"class_name": "VarianceScaling", "config": 
+"distribution": "uniform", "scale": 1.0, "seed": null, "mode": "fan_avg"
+
+, "name": "conv2d_20", "kernel_constraint": null, "bias_regularizer": null, "bias_constraint": null, "dtype": "float32", "activation": "linear", "trainable": true, "data_format": "channels_last", "filters": 64, "padding": "same", "strides": 
+1, 1
+, "dilation_rate": 
+1, 1
+, "kernel_regularizer": null, "bias_initializer": 
+"class_name": "Zeros", "config": 
+
+
+, "batch_input_shape": 
+null, 1, 28, 28
+, "use_bias": true, "activity_regularizer": null, "kernel_size": 
+2, 2
+
+
+, 
+"class_name": "Activation", "config": 
+"activation": "relu", "trainable": true, "name": "activation_38"
+
+, 
+"class_name": "MaxPooling2D", "config": 
+"name": "max_pooling2d_20", "trainable": true, "data_format": "channels_last", "pool_size": 
+2, 2
+, "padding": "same", "strides": 
+2, 2
+
+
+, 
+"class_name": "Dropout", "config": 
+"rate": 0.25, "noise_shape": null, "trainable": true, "seed": null, "name": "dropout_29"
+
+, 
+"class_name": "Flatten", "config": 
+"trainable": true, "name": "flatten_10", "data_format": "channels_last"
+
+, 
+"class_name": "Dense", "config": 
+"kernel_initializer": 
+"class_name": "VarianceScaling", "config": 
+"distribution": "uniform", "scale": 1.0, "seed": null, "mode": "fan_avg"
+
+, "name": "dense_19", "kernel_constraint": null, "bias_regularizer": null, "bias_constraint": null, "activation": "linear", "trainable": true, "kernel_regularizer": null, "bias_initializer": 
+"class_name": "Zeros", "config": 
+
+
+, "units": 512, "use_bias": true, "activity_regularizer": null
+
+, 
+"class_name": "Activation", "config": 
+"activation": "relu", "trainable": true, "name": "activation_39"
+
+, 
+"class_name": "Dropout", "config": 
+"rate": 0.25, "noise_shape": null, "trainable": true, "seed": null, "name": "dropout_30"
+
+, 
+"class_name": "Dense", "config": 
+"kernel_initializer": 
+"class_name": "VarianceScaling", "config": 
+"distribution": "uniform", "scale": 1.0, "seed": null, "mode": "fan_avg"
+
+, "name": "dense_20", "kernel_constraint": null, "bias_regularizer": null, "bias_constraint": null, "activation": "linear", "trainable": true, "kernel_regularizer": null, "bias_initializer": 
+"class_name": "Zeros", "config": 
+
+
+, "units": 7, "use_bias": true, "activity_regularizer": null
+
+, 
+"class_name": "Activation", "config": 
+"activation": "softmax", "trainable": true, "name": "activation_40"
+
+
+, "backend": "theano"
+
+ Description of trained model 
